@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6286","create collaborator","webkit","Tue Sep 17 13:41:47 UTC 2024","passed","Tue Sep 17 13:41:53 UTC 2024","","connectF.spec.ts","",""
+"","7175","create collaborator","chromium","Tue Sep 17 13:41:31 UTC 2024","passed","Tue Sep 17 13:41:39 UTC 2024","","connectF.spec.ts","",""
+"","4161","create collaborator","firefox","Tue Sep 17 13:41:40 UTC 2024","passed","Tue Sep 17 13:41:44 UTC 2024","","connectF.spec.ts","",""

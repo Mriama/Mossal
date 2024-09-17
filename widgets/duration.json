@@ -1,1 +1,1 @@
-[]
+[{"uid":"d0e58e0694c877ed","name":"create collaborator","time":{"start":1726580507164,"stop":1726580513450,"duration":6286},"status":"passed","severity":"normal"},{"uid":"38c1c0a3cfd3450e","name":"create collaborator","time":{"start":1726580491869,"stop":1726580499044,"duration":7175},"status":"passed","severity":"normal"},{"uid":"6ea00327b3ce85b5","name":"create collaborator","time":{"start":1726580500705,"stop":1726580504866,"duration":4161},"status":"passed","severity":"normal"}]
