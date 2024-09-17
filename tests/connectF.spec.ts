@@ -31,7 +31,7 @@ async function login(page) {
 }
 
 // Test pour la création d'un collaborateur
-test('create collaborator', async ({ page }) => {
+test.only('create collaborator', async ({ page }) => {
   await page.getByText('Collaborateurs').click();
   await page.getByRole('button', { name: '+ Ajouter un collaborateur' }).click();
   await expect(page.getByText('Création compte collaborateur')).toBeVisible();
