@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","9687","Ajout collaborateur","firefox","Tue Sep 17 15:01:14 CEST 2024","passed","Tue Sep 17 15:01:24 CEST 2024","","demoFixture.spec.ts","",""
-"","7508","Ajout collaborateur","chromium","Tue Sep 17 15:01:14 CEST 2024","passed","Tue Sep 17 15:01:21 CEST 2024","","demoFixture.spec.ts","",""
-"","18050","Ajout collaborateur","webkit","Tue Sep 17 15:01:13 CEST 2024","passed","Tue Sep 17 15:01:31 CEST 2024","","demoFixture.spec.ts","",""

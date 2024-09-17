@@ -41,21 +41,6 @@ test('mossal login', async ({ page }) => {
 });
 
 
-/*test('update demande', async ({ page }) => {
-  await page.getByText('Liste des demandes').click();
-  await page.getByText('Statut').click();
-  await page.getByText('Validée').click();
-  await page.getByText('Liste des demandes').click();
-  await page.locator('.dropdown > .mat-icon').first().click();
-  await page.locator('#dropdown-statut').getByText('Validée').click();
-  await page.getByRole('row').nth(1).locator('mat-icon').click();
-  await page.getByRole('cell', { name: 'Validée Remboursée' }).locator('span').nth(2).click();
-  await page.locator('.btn-edit-statut > .text').first().click();
-  await page.getByRole('row').nth(1).locator('div').nth(3).click();
-  await page.getByRole('button', { name: 'Confirmer' }).click();
-});*/
-
-
 test.afterEach(async ({ page }) => {
   await page.getByText('arrow_drop_down').click();
   await page.getByText('Déconnexion').click();

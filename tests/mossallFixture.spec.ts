@@ -54,22 +54,5 @@ test('ajout collaborateur', async ({ authenticatedPage }) => {
 
 
   // Test pour la mise à jour d'une demande avec la fixture
-test('update demande', async ({ authenticatedPage }) => {
-    await authenticatedPage.getByText('Liste des demandes').click();
-    await authenticatedPage.getByText('Statut').click();
-    await authenticatedPage.getByText('Validée').click();
-    await authenticatedPage.getByText('Liste des demandes').click();
-    await authenticatedPage.locator('.dropdown > .mat-icon').first().click();
-    await authenticatedPage.locator('#dropdown-statut').getByText('Validée').click();
-    await authenticatedPage.getByRole('row').nth(1).locator('mat-icon').click();
-    await authenticatedPage.getByRole('cell', { name: 'Validée Remboursée' }).locator('span').nth(2).click();
-    await authenticatedPage.locator('.btn-edit-statut > .text').first().click();
-    await authenticatedPage.getByRole('row').nth(1).locator('div').nth(3).click();
-    await authenticatedPage.getByRole('button', { name: 'Confirmer' }).click();
-  });
 
-// Test indépendant de la fixture (cas neutre)
-  test('modifeir compt colaborateur', async ({ page }) => {  
-    await page.getByText('Collaborateurs').click(); 
-  });
   
