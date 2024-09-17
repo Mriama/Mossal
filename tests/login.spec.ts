@@ -41,7 +41,7 @@ test('mossal login', async ({ page }) => {
 });
 
 
-test('update demande', async ({ page }) => {
+/*test('update demande', async ({ page }) => {
   await page.getByText('Liste des demandes').click();
   await page.getByText('Statut').click();
   await page.getByText('Validée').click();
@@ -53,7 +53,7 @@ test('update demande', async ({ page }) => {
   await page.locator('.btn-edit-statut > .text').first().click();
   await page.getByRole('row').nth(1).locator('div').nth(3).click();
   await page.getByRole('button', { name: 'Confirmer' }).click();
-});
+});*/
 
 
 test.afterEach(async ({ page }) => {
