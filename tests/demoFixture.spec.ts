@@ -18,7 +18,7 @@ test.only('Ajout collaborateur', async ({ collaboratorPage, page}) => {
 });
 
 
-//test('valider une demande', async ({ demandePage, page}) => {
-    //expect(page.url()).toBe('https://app-dev.mossall.com/auth/login');
-   // await demandePage.validerUneDemande();
-//});
+test('valider une demande', async ({ demandePage, page}) => {
+    expect(page.url()).toBe('https://app-dev.mossall.com/auth/login');
+    await demandePage.validerUneDemande();
+});
