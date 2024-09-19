@@ -28,7 +28,7 @@ export const test = base.extend<TestFixtures>({
     demandePage: async ({ basePage }, use) => {
         const demandePage = new DemandePage(basePage.page);
         await use(demandePage);
-    },
+    }
 
 });
 
