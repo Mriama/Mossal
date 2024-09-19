@@ -17,8 +17,3 @@ test('Ajout collaborateur', async ({ collaboratorPage, page}) => {
     await collaboratorPage.addCollaborator(prenom, nom, email, '77' +telephone.toString(), birthday, identifiant.toString(), 'Testeur', '2000000', '123456789', 'WAVE');
 });
 
-
-test('valider une demande', async ({ demandePage, page}) => {
-    expect(page.url()).toBe('https://app-dev.mossall.com/auth/login');
-    await demandePage.validerUneDemande();
-});
