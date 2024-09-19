@@ -1,7 +1,8 @@
 import {test as base } from '@playwright/test';
+import { DemandePage } from '../pages/DemandePage';
 import { CollaboratorPage } from '../pages/CollaboratorPage';
 import { BasePage } from '../pages/BasePage';
-import { DemandePage } from '../pages/DemandePage';
+
 
 
 type TestFixtures = {
