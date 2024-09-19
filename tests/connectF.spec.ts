@@ -43,7 +43,7 @@ test('create collaborator', async ({ page }) => {
   await page.getByLabel('Téléphone').fill('77' + telephone.toString());
   await page.getByLabel('Fonction').fill('Homme daffaire');
   await page.locator('#birthDate').fill(birthday);
-  await page.getByLabel('Identifiant unique').fill(identifiant.toString());
+  await page.getByLabel('Matricule').fill(identifiant.toString());
   await page.getByLabel('Salaire').fill('2000000');
   await page.getByLabel('N° Compte Bancaire').fill('2000000');
   await page.getByRole('combobox').selectOption({ index: 0 });

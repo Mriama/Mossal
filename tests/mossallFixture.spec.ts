@@ -45,14 +45,11 @@ test('ajout collaborateur', async ({ authenticatedPage }) => {
     await authenticatedPage.getByLabel('Téléphone').fill('77' + telephone.toString());
     await authenticatedPage.getByLabel('Fonction').fill('Homme daffaire');
     await authenticatedPage.locator('#birthDate').fill(birthday);
-    await authenticatedPage.getByLabel('Identifiant unique').fill(identifiant.toString());
+    await authenticatedPage.getByLabel('Matricule').fill(identifiant.toString());
     await authenticatedPage.getByLabel('Salaire').fill('2000000');
     await authenticatedPage.getByLabel('N° Compte Bancaire').fill('2000000');
     await authenticatedPage.getByRole('combobox').selectOption({ index: 0 });
     await authenticatedPage.getByRole('button', { name: 'Envoyé' }).click();
   });
-
-
-  // Test pour la mise à jour d'une demande avec la fixture
 
   

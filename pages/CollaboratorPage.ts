@@ -29,7 +29,7 @@ export class CollaboratorPage extends BasePage {
         this.collaboratorPhone = page.getByLabel('Téléphone');
         this.collaboratorBirthDate = page.locator('#birthDate');
         this.collaboratorFonction = page.getByLabel('Fonction');
-        this.collaboratorId = page.getByLabel('Identifiant unique');
+        this.collaboratorId = page.getByLabel('Matricule');
         this.collaboratorSalary = page.getByLabel('Salaire');
         this.collaboratorBankAccount = page.getByLabel('N° Compte Bancaire');
         this.collaboratorPaymentMethod = page.getByRole('combobox');

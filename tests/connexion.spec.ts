@@ -18,8 +18,3 @@ test('test de connexion', async ({ page }) => {
 });
 
 
-
-
-////////////// autre exemple de fonction de connexion///////////////
-
-

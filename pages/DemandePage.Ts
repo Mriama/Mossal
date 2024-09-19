@@ -28,7 +28,7 @@ export class DemandePage extends BasePage {
         this.firstLineDemande = page.getByRole('row').nth(1).locator('mat-icon');
         this.columnRembourse = page.getByRole('cell', { name: 'Validée Remboursée' }).locator('span').nth(2);
         this.selectRembourse = page.locator('.btn-edit-statut > .text').first();
-        this.clickRembourse = page.getByRole('row').nth(1).locator('div').nth(3);
+        this.clickRembourse = page.getByText('Remboursée').nth(1);
         this.confirmButton = page.getByRole('button', { name: 'Confirmer' });
     } 
 
