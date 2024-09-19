@@ -1,5 +1,5 @@
 {
-  "name": "automation-massal",
+  "name": "automationmossal",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "playwright test",
     "allure:generate": "allure generate --clean",
     "allure:open": "allure open",
-    "test:allure": "npm run clean:allure && npm run test && npm run allure:generate"
+    "test:allure": "npm run clean:allure && npm run test && npm run allure:generate && npm run allure:open"
   },
   "keywords": [],
   "author": "",
