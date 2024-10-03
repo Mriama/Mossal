@@ -51,5 +51,4 @@ test('ajout collaborateur', async ({ authenticatedPage }) => {
     await authenticatedPage.getByRole('combobox').selectOption({ index: 0 });
     await authenticatedPage.getByRole('button', { name: 'Envoyé' }).click();
   });
-
   
